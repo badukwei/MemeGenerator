@@ -21,8 +21,13 @@ React.js、Fetch API、ES6、Css3、HTML5、SCSS。
 ## 使用說明
 
 1.點擊按鈕選擇需要使用圖片
+
 ![image](https://user-images.githubusercontent.com/109848154/192268410-f3b824a0-af16-44e2-89e4-727d54daacd5.png)
+
 2.選擇適合圖片後輸入文字
+
 ![image](https://user-images.githubusercontent.com/109848154/192268527-2cd045d2-7e45-4d14-9509-eebe8b48a835.png)
+
 3.拖曳文字到你覺得適合的位置
+
 ![image](https://user-images.githubusercontent.com/109848154/192268805-32341b99-1717-4951-a13a-9dc3bdc3de93.png)
