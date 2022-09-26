@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# 迷因產生器
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+讓創作者可以簡單的創作迷因
+![螢幕擷取畫面 2022-09-26 190845](https://user-images.githubusercontent.com/109848154/192268869-16b7ed55-298b-4d4f-9e2b-844d691cb3f2.png)
 
-## Available Scripts
+## 專案技能
 
-In the project directory, you can run:
+React.js、Fetch API、ES6、Css3、HTML5、SCSS。
 
-### `npm start`
+##專案簡介 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+使用React架設迷因產生網頁，使用者可以點擊按鈕，透過API獲取迷因圖片，並在上方輸入文字進行創作，依照不同的圖片，創作者也可以拖曳文字將其放到適合的位置。
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+使用React.setState撰寫頁面互動邏輯
+使用React.setUseEffect撰寫API邏輯
+使用JSX語法撰寫網頁架構
+使用SCSS設計響應式網頁基礎外觀
+使用React draggable將文字區塊轉變成可拖曳式
 
-### `npm test`
+##使用說明
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1.點擊按鈕選擇需要使用圖片
+![image](https://user-images.githubusercontent.com/109848154/192268410-f3b824a0-af16-44e2-89e4-727d54daacd5.png)
+2.選擇適合圖片後輸入文字
+![image](https://user-images.githubusercontent.com/109848154/192268527-2cd045d2-7e45-4d14-9509-eebe8b48a835.png)
+3.拖曳文字到你覺得適合的位置
+![image](https://user-images.githubusercontent.com/109848154/192268805-32341b99-1717-4951-a13a-9dc3bdc3de93.png)
